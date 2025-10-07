@@ -41,7 +41,7 @@ engine = prophet_engine(ts_data=df, ts_dim=[], param_grid={'changepoint_prior_sc
 # run a quick CV for this single series
 best_mape, best_result, best_agg = engine.single_model_run(ts_info=pd.Series({'dsn':len(df)}), ts_all=df)
 print(best_mape)
-
+```
 Capacity
 --------
 
@@ -93,4 +93,3 @@ support production-scale workloads:
 These improvements will allow the engine to scale from exploratory use to
 production-grade batch forecasting workloads with predictable performance and
 cost controls.
-```
