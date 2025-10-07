@@ -1,4 +1,4 @@
-Forecast Engine for Business Demand Forecasting Based on Meta Prophet Model.
+Forecast Engine for Business Demand Forecasting Based on Meta Prophet Model
 --------
 This is a README snippet for running the Forecast Engine implemented in `forecast_engine.py`.
 
